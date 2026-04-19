@@ -1,18 +1,17 @@
 # 🎮 Haunted Escape Game (C++ OOP Project)
 
 ## 📌 Description
-This is a console-based C++ game built using Object-Oriented Programming concepts.  
-The player must escape without getting caught by the enemy (Granny) and reach the exit.
+Haunted Escape Game is a console-based C++ Object-Oriented Programming (OOP) project. In this game, the player must move through a map, avoid an enemy (Granny), and reach the exit point to win the game. If the enemy catches the player, the game is over.
 
 ---
 
 ## 🎯 Features
 - Player movement using W A S D keys
-- Enemy (Granny) moving in a fixed path
-- Win condition (reach X point)
-- Lose condition (caught by enemy)
-- Exception handling for game events
-- Simple console graphics
+- Enemy (Granny) with automatic movement path
+- Win condition (reach exit point marked as X)
+- Lose condition (collision with enemy)
+- Restart and quit option after game ends
+- Console-based map design
 
 ---
 
@@ -22,7 +21,8 @@ The player must escape without getting caught by the enemy (Granny) and reach th
 - Polymorphism (virtual functions)
 - Encapsulation
 - Exception Handling
-- Game Loop Logic
+- Game loop logic
+- Input handling using keyboard keys
 
 ---
 
@@ -34,6 +34,32 @@ The player must escape without getting caught by the enemy (Granny) and reach th
 
 ---
 
+## 🗂 Project Structure
+Haunted-Escape-Game/
+│
+├── main.cpp
+├── README.md
+
+---
+
+## 🚀 How It Works
+1. Game starts and shows controls
+2. Player starts at initial position
+3. Enemy moves automatically in a fixed pattern
+4. Player moves using keyboard input
+5. Game checks collision and win conditions:
+   - Reach X → WIN
+   - Touch enemy → GAME OVER
+6. Player can restart or quit
+
+---
+
 ## 👨‍💻 Author
 Zain Tahir  
 Software Engineering Student  
+University of Lahore  
+
+---
+
+## 📌 Note
+This project is created for learning purposes to practice C++ OOP concepts and basic game development logic.
